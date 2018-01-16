@@ -10,7 +10,7 @@ var Checkout = require('Checkout');
       <Router history={browserHistory} >
         <Route path='/'  component={Store}/>
         <Route path='/product' name="product" component={Product}/>
-        <Route path='/checkout' name="checkout" component={Checkout}/>
+        <Route path='/admin' name="admin" component={Checkout}/>
         </Router>,
       document.getElementById('app')
     );

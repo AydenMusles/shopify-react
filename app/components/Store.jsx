@@ -2,7 +2,6 @@ var React = require('react');
 var GetProducts = require('GetProducts');
 var StoreCard = require('StoreCard');
 var shopify = require('Shopify')
-
 var {browserHistory} = require('react-router');
 import 'Styles';
 import Header from 'Header';
@@ -16,7 +15,7 @@ export var Store = React.createClass({
      };
   },
   componentWillMount: function() {
-     shopify.product.fetchAll().then((res) => {
+    shopify.product.fetchAll().then((res) => {
       this.setState({
         products: res,
       });

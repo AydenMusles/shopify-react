@@ -10,12 +10,8 @@ var Navigation = React.createClass({
             <li>
               <IndexLink to="/" activeClassName="active" style={{color:'#0d1228'}} activeStyle={{color:'#0d1228',textDecoration:'underline'}}>Shop</IndexLink>
             </li>
-            <li>
-              <Link to="/checkout" activeClassName="active" style={{color:'#0d1228'}} activeStyle={{color:'#0d1228',textDecoration:'underline'}}>Checkout</Link>
-            </li>
-
           </ul>
-    );
+        );
   }
 });
 
